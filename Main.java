@@ -2,8 +2,10 @@
 //2015-12-13
 //Practice 2012 - 01: Grading Exams
 
+import java.io.*;
+
 public class Main {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
     //create an input reader object
     BufferedReader input
             = new BufferedReader(new InputStreamReader(System.in));
